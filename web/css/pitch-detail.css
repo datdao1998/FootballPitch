@@ -1,0 +1,108 @@
+#pitch-detail-content{
+    width: 100vw;
+    height: 77vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw 85vh;
+}
+#staff-pitch-detail-input-name{
+    font-size: 1.3vmax;
+    margin-top: 10vw;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-pitch-detail-input-description{
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    margin-left: 3vh;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-pitch-detail-input-num-player{
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-left: 14vw;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+.staff-pitch-detail-label-form-add{
+    color: white;
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+}
+#pitch-id{
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+}
+#pitch-form{
+    text-align: center;
+}
+
+#update-button{
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#update-button-div{
+
+}
+#staff-home-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}

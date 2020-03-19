@@ -1,0 +1,57 @@
+#home-content {
+    background-image: url("http://localhost:8080/football_pitch/imgs/bg-home.jpg");
+    background-size: 100vw 100vh; width: 100vw; height: 100vh;
+}
+#home-div-1 {
+    clear: both;
+    padding-top: 38vh;
+    font-family: cursive;
+    color: white;
+    font-size: 3vmax;
+    float: right;
+    margin-right: 5vw;
+}
+#home-div-2 {
+    clear: both;
+    float: right;
+    color: #fdbd00;
+    font-family: cursive;
+    font-size: 1.7vmax;
+    margin-right: 5vw;
+    margin-top: 1vh
+}
+#home-div-3 {
+    clear: both;
+    float: right;
+    margin-top: 4vh;
+    margin-right: 5vw;
+}
+#home-btn-book-field-now {
+    font-family: cursive;
+    border-radius: 5px;
+    color: black;
+    width: 13vw;
+    height: 6vh;
+    font-size: 1.3vmax;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: white;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: white;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: white;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#home-customer-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}

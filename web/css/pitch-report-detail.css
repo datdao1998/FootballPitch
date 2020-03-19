@@ -1,0 +1,67 @@
+#pitch-report-detail-content{
+    width: 100vw;
+    height: 77vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw 85vh;
+}
+table{
+    margin-left: 14vw;
+    margin-top: 7vh;
+    color: white;
+    text-align: center;
+}
+tr{
+    height: 5vh;
+}
+th{
+    width: 15vw;
+}
+.staff-pitch-detail-label-form-add{
+    color: white;
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+}
+#pitch-report-id{
+    text-align: center;
+    color: white;
+    font-size: 10vh;
+}
+#pitch-form{
+    text-align: center;
+}
+
+#update-button{
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#update-button-div{
+
+}
+#staff-home-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}
+.title{
+    color: yellow;
+    font-size: 1.5vmax;
+}

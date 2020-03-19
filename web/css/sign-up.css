@@ -1,0 +1,143 @@
+#body-sign-up {
+    margin: 0;
+}
+#sign-up-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#div-form-sign-up {
+    padding-top: 15vh;
+    padding-left: 29vw;
+}
+.input-sign-up {
+    margin-bottom: 5vh;
+    border-top-color: #FD9B07;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: unset;
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
+}
+.float-left {
+    float: left;
+}
+#div-sign-up-2 {
+    padding-left: 7vw;
+}
+#btn-submit-sign-up {
+    clear: both;
+    margin-left: 18.5vw;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#form-sign-up {
+    height: 28vh;
+}
+
+/*fail*/
+#body-sign-up-fail {
+    margin: 0;
+}
+#sign-up-fail-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#div-sign-up-fail {
+    padding-top: 15vh;
+    padding-left: 23vw;
+}
+#sign-up-fail-div1 {
+    color: red;
+    font-size: 5vmax;
+    font-family: Bahnschrift;
+}
+#sign-up-fail-div2 {
+    margin-left: 24vw;
+    margin-top: 6vh;
+}
+#sign-up-fail-href-cancel {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+}
+
+/*success*/
+#body-sign-up-success {
+    margin: 0;
+}
+#sign-up-success-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#sign-up-success-div1 {
+    padding-top: 17vh;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-align: center;
+}
+#sign-up-success-div2 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#btn-sign-up-success-login {
+    font-size: 1.5vmax;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#sign-up-user-name-existed {
+    margin-left: 1vw;
+    font-size: 1.5vmax;
+    font-family: monospace;
+}

@@ -1,0 +1,144 @@
+#staff-service-manage-content {
+    width: 100vw;
+    height: 77vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw 85vh;
+}
+
+.staff-service-manage-href {
+    text-decoration: none;
+}
+
+#staff-service-manage-div-1 {
+    padding-top: 12vh;
+    margin-left: 3vw;
+    float: left;
+}
+#staff-service-manage-div-2 {
+    padding-top: 12vh;
+    margin-left: 24vw;
+    float: left;
+}
+#staff-service-manage-div-3 {
+    clear: both;
+    padding-top: 12vh;
+    margin-left: 16vw;
+    float: left;
+}
+#staff-service-manage-div-4 {
+    padding-top: 12vh;
+    margin-left: 24vw;
+    float: left;
+}
+#staff-service-manage-sell {
+    background-color: rgb(253, 189, 0);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vmax;
+    line-height: 19vh;
+}
+#staff-service-manage-warehouse {
+    background-color: rgb(253, 189, 0);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vmax;
+    line-height: 19vh;
+}
+#staff-service-manage-add {
+    background-color: rgb(253, 189, 0);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vmax;
+    line-height: 19vh;
+}
+#staff-service-manage-update {
+    background-color: rgb(253, 189, 0);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vmax;
+    line-height: 19vh;
+}

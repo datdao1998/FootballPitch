@@ -1,0 +1,39 @@
+#staff-check-in-content{
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw;
+}
+
+#staff-check-in-div-1{
+    padding-top: 7vh;
+    text-align: center;
+}
+
+.staff-check-in-td-content {
+    margin-left: 6.5vw;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-weight: bolder;
+    color: ivory;
+    margin-top: 3vh;
+    font-family: cursive;
+    background: none;
+    border: none;
+}
+.staff-check-in-td-background {
+    background-image: url(http://localhost:8080/football_pitch/imgs/pitch-img.jpg);
+    width: 25vw;
+    height: 30vh;
+    background-size: 25vw 30vh;
+    border-radius: 3vmax;
+    float: right;
+    filter: blur(2px);
+}
+.staff-check-in-td {
+    width: 30.5vw;
+    height: 46vh;
+}
+#staff-check-in-div-2 {
+}

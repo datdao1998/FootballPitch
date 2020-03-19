@@ -1,0 +1,63 @@
+#staff-pitch-manage-content {
+    width: 100vw;
+    height: 77vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw 85vh;
+}
+#staff-pitch-manage-div-1{
+    text-align: center;
+    margin-top: 0vw;
+}
+#staff-pitch-manage-btn-add-pitch{
+    font-family: Bahnschrift;
+    margin-left: -44vw;
+    margin-top: 12vw;
+    border-radius: 6px;
+    width: 20vw;
+    font-size: 4.3vmax;
+    height: 27vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-pitch-manage-btn-update-pitch{
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 20vw;
+    margin-left: 30vw;
+    margin-top: -27vh;
+    font-size: 4.3vmax;
+    height: 27vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-home-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}

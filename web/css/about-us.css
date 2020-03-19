@@ -1,0 +1,58 @@
+#about-us{
+    margin-left: 4vw;
+    margin-top: 6vh;
+    float: left;
+}
+
+#about-us-about-txt{
+    margin-top: 14.5vh;
+    margin-left: 4vw;
+    float: left;
+    font-family: Calibri;
+    font-size: 8vh;
+    font-weight: bold;
+}
+
+#about-us-us-txt{
+    margin-top: 14.5vh;
+    margin-left: 4vw;
+    float: left;
+    font-family: Calibri;
+    font-size: 8vh;
+    font-weight: bold;
+    color: white;
+}
+
+#about-us-area{
+    margin-left: 4vw;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    float: left;
+}
+
+#about-us-previous{
+    margin-top: 2vh;
+    margin-left: 13vw;
+    font-family: Calibri;
+    font-weight: bold;
+    background-color: black;
+    color: #FDAB0A;
+}
+
+#about-us-next{
+    margin-left: 2vw;
+    font-family: Calibri;
+    font-weight: bold;
+    background-color: black;
+    color: #FDAB0A;
+}
+
+#about-us-pitch{
+    height: 33vh;
+}
+
+#about-us-description{
+    color: white;
+    font-family: Calibri;
+    font-weight: bold;
+}

@@ -1,0 +1,118 @@
+#customer-booking-content {
+    width: 100vw;
+    min-height: 120vh;
+    background-image: url(http://localhost:8080/football_pitch/imgs/layout1.jpg);
+    background-size: 171.5vw 120vh;
+    background-position-x: center;
+}
+#customer-booking-div-1 {
+    padding-top: 7vh;
+    text-align: center;
+}
+.customer-booking-label-form-search {
+    color: white;
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+}
+#customer-booking-input-time {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#customer-booking-input-date {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#customer-booking-input-num-player {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#customer-booking-btn-search {
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+.customer-booking-td-content {
+    margin-left: 9.5vw;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-weight: bolder;
+    color: ivory;
+    margin-top: 3vh;
+    font-family: cursive;
+    background: none;
+    border: none;
+}
+.customer-booking-td-background {
+    background-image: url(http://localhost:8080/football_pitch/imgs/pitch-img.jpg);
+    width: 25vw;
+    height: 30vh;
+    background-size: 25vw 30vh;
+    border-radius: 3vmax;
+    float: right;
+    filter: blur(2px);
+}
+.customer-booking-td {
+    width: 30.5vw;
+    height: 46vh;
+}
+#customer-booking-div-2 {
+}

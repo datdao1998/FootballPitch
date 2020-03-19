@@ -1,0 +1,191 @@
+#staff-home-report-service-searched-content {
+    width: 100vw;
+    height: 120vh;
+    background-image: url(http://localhost:8080/football_pitch/imgs/layout1.jpg);
+    background-size: 171.5vw 120vh;
+    background-position-x: center;
+}
+#staff-home-report-service-searched-div-1 {
+    padding-top: 7vh;
+    text-align: center;
+}
+.staff-home-report-service-searched-form-search {
+    color: white;
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+}
+#staff-home-report-service-searched-input-time {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-home-report-service-searched-input-date {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-home-report-service-searched-end-input-date {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-home-report-service-searched-input-num-player {
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-home-report-service-searched-btn-search {
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-home-report-service-searched-table{
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 20vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(250, 250, 250);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-home-report-service-searched-table-style{
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+.staff-home-report-service-searched-td-content {
+    width: 25vw;
+    height: 30vh;
+    margin-left: 5.5vw;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    font-weight: bolder;
+    color: ivory;
+    margin-top: 3vh;
+    font-family: cursive;
+}
+.staff-home-report-service-searched-td-background {
+    background-image: url(http://localhost:8080/football_pitch/imgs/pitch-img.jpg);
+    width: 25vw;
+    height: 30vh;
+    background-size: 25vw 30vh;
+    border-radius: 3vmax;
+    float: right;
+    filter: blur(2px);
+}
+.staff-home-report-service-searched-td {
+    width: 30.5vw;
+    height: 46vh;
+}
+
+#staff-home-report-service-searched-div-2 {
+}
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

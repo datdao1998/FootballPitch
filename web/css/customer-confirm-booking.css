@@ -1,0 +1,66 @@
+#customer-confirm-booking-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+
+#customer-confirm-booking-form {
+    padding-top: 5vh;
+    height: 40vh;
+}
+.customer-confirm-booking-label {
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+    color: white;
+    margin-bottom: 1vh;
+}
+.customer-confirm-booking-input {
+    border-radius: 6px;
+    font-size: 1.5vmax;
+    font-family: Bahnschrift;
+    margin-bottom: 4vh;
+    float: right;
+    background-color: white;
+    color: black;
+}
+#customer-confirm-booking-div-1 {
+    float: left;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+#customer-confirm-booking-div-2 {
+    float: left;
+}
+#customer-confirm-booking-btn-confirm {
+    clear: both;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    margin-left: 46.2vw;
+    margin-bottom: 2vh;
+}
+#customer-confirm-booking-cancel {
+    clear: both;
+    font-size: 1.5vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 47.7vw;
+}

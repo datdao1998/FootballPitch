@@ -1,0 +1,150 @@
+#staff-update-service-content{
+    width: 100vw;
+    min-height: 85vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw;
+}
+#list-service-title{
+    text-align: center;
+    color: white;
+    font-size: 70px;
+}
+#list-service{
+    text-align: center;
+    margin-left: 42%;
+}
+table{
+    margin-left: 14vw;
+    margin-top: 7vh;
+    color: white;
+    text-align: center;
+}
+tr{
+    height: 5vh;
+}
+th{
+    width: 10vw;
+}
+.title{
+    color: yellow;
+    font-size: 1.5vmax;
+}
+.update-button{
+    margin-top: 2.5vh;
+    font-size: 1.5vmax;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 4vw;
+    font-size: 1.3vmax;
+    height: 4vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-home-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}
+.staff-update-service-label-form-update{
+    color: white;
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+}
+#staff-update-service-input-name{
+    font-size: 1.3vmax;
+    margin-top: 10vw;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-update-service-input-type{
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-update-service-input-price{
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 3vw;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-update-service-btn-search{
+    margin-right: 41vw;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-update-service-form{
+    margin-left: -50vw;
+    margin-top: -12vh;
+}
+#service-result{
+    text-align: center;
+}

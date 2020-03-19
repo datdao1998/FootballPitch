@@ -1,0 +1,13 @@
+.margin-0 {
+    margin: 0;
+}
+.div-log-out {
+    float: right;
+    margin-right: 2vw;
+}
+.href-log-out {
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+    color: #FDAB0A;
+    text-decoration: none;
+}

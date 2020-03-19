@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+    <servlet>
+        <servlet-name>UpdateAndGetAccountServlet</servlet-name>
+        <servlet-class>api.servlet.account.UpdateAndGetAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAndGetAccountServlet</servlet-name>
+        <url-pattern>/api/accounts/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchAndCreateAccountServlet</servlet-name>
+        <servlet-class>api.servlet.account.SearchAndCreateAccountServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAndCreateAccountServlet</servlet-name>
+        <url-pattern>/api/accounts/</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>UpdateAndGetServiceServlet</servlet-name>
+        <servlet-class>api.servlet.service.UpdateAndGetServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAndGetServiceServlet</servlet-name>
+        <url-pattern>/api/services/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchAndCreateServiceServlet</servlet-name>
+        <servlet-class>api.servlet.service.SearchAndCreateServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAndCreateServiceServlet</servlet-name>
+        <url-pattern>/api/services/</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>GetTypeServlet</servlet-name>
+        <servlet-class>api.servlet.type.GetTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>GetTypeServlet</servlet-name>
+        <url-pattern>/api/types/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchTypeServlet</servlet-name>
+        <servlet-class>api.servlet.type.SearchTypeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchTypeServlet</servlet-name>
+        <url-pattern>/api/types/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SearchAndCreatePitchServlet</servlet-name>
+        <servlet-class>api.servlet.pitch.SearchAndCreatePitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAndCreatePitchServlet</servlet-name>
+        <url-pattern>/api/pitchs/</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UpdateAndGetPitchServlet</servlet-name>
+        <servlet-class>api.servlet.pitch.UpdateAndGetPitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAndGetPitchServlet</servlet-name>
+        <url-pattern>/api/pitchs/*</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SearchUsedServiceByTimeServlet</servlet-name>
+        <servlet-class>api.servlet.usedservice.SearchUsedServiceByTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchUsedServiceByTimeServlet</servlet-name>
+        <url-pattern>/api/used_services/search_by_time</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>CreateServiceBillServlet</servlet-name>
+        <servlet-class>api.servlet.servicebill.CreateServiceBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateServiceBillServlet</servlet-name>
+        <url-pattern>/api/service_bills/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServiceBillByTimeServlet</servlet-name>
+        <servlet-class>api.servlet.servicebill.SearchServiceBillByTimeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServiceBillByTimeServlet</servlet-name>
+        <url-pattern>/api/service_bills/search_by_time</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateAndGetServiceBillServlet</servlet-name>
+        <servlet-class>api.servlet.servicebill.UpdateAndGetServiceBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAndGetServiceBillServlet</servlet-name>
+        <url-pattern>/api/service_bills/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateAndGetBookingBillServlet</servlet-name>
+        <servlet-class>api.servlet.bookingBill.UpdateAndGetBookingBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpdateAndGetBookingBillServlet</servlet-name>
+        <url-pattern>/api/booking_bills/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchAndCreateBookingBillServlet</servlet-name>
+        <servlet-class>api.servlet.bookingBill.SearchAndCreateBookingBillServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAndCreateBookingBillServlet</servlet-name>
+        <url-pattern>/api/booking_bills/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SignUpServlet</servlet-name>
+        <servlet-class>web.servlet.customer.SignUpServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SignUpServlet</servlet-name>
+        <url-pattern>/sign_up</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckUserNameExistedServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CheckUserNameExistedServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckUserNameExistedServlet</servlet-name>
+        <url-pattern>/accounts/check_user_name_existed</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerLoginServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerLoginServlet</servlet-name>
+        <url-pattern>/customer/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchAvailablePitchServlet</servlet-name>
+        <servlet-class>api.servlet.pitch.SearchAvailablePitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchAvailablePitchServlet</servlet-name>
+        <url-pattern>/api/pitchs/available/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerSearchAvailablePitchServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerSearchAvailablePitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerSearchAvailablePitchServlet</servlet-name>
+        <url-pattern>/customer_search_available_pitch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerSearchBookedPitchServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerSearchBookedPitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerSearchBookedPitchServlet</servlet-name>
+        <url-pattern>/customer_search_booked_pitch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerConfirmBookingServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerConfirmBookingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerConfirmBookingServlet</servlet-name>
+        <url-pattern>/customer_confirm_booking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerLogoutServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerLogoutServlet</servlet-name>
+        <url-pattern>/customer_log_out</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffLoginServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffLoginServlet</servlet-name>
+        <url-pattern>/staff/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CustomerCancelBookingServlet</servlet-name>
+        <servlet-class>web.servlet.customer.CustomerCancelBookingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerCancelBookingServlet</servlet-name>
+        <url-pattern>/customer_cancel_booking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffSearchServiceSellServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffSearchServiceSellServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffSearchServiceSellServlet</servlet-name>
+        <url-pattern>/staff_manage_service_sell_search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffAddSellServiceServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffAddSellServiceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffAddSellServiceServlet</servlet-name>
+        <url-pattern>/staff_add_sell_service_to_session</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffSearchServiceAddAvailableServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffSearchServiceAddAvailableServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffSearchServiceAddAvailableServlet</servlet-name>
+        <url-pattern>/staff_manage_service_add_available_search</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffCheckInServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffCheckInServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffCheckInServlet</servlet-name>
+        <url-pattern>/staff_check_in</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffProcessCheckInServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffProcessCheckInServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffProcessCheckInServlet</servlet-name>
+        <url-pattern>/staff_process_check_in_booking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffCheckOutServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffCheckOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffCheckOutServlet</servlet-name>
+        <url-pattern>/staff_check_out</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffProcessCheckOutServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffProcessCheckOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffProcessCheckOutServlet</servlet-name>
+        <url-pattern>/staff_process_check_out_booking</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffServiceChangeQuantityServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffServiceChangeQuantityServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffServiceChangeQuantityServlet</servlet-name>
+        <url-pattern>/staff_service_manage_sell_change_quantity</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffServiceSellingServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffServiceSellingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffServiceSellingServlet</servlet-name>
+        <url-pattern>/staff_service_manage_selling</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffUpdateServiceAvailableServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffUpdateServiceAvailableServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffUpdateServiceAvailableServlet</servlet-name>
+        <url-pattern>/staff_service_manage_update_available</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffLogoutServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffLogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffLogoutServlet</servlet-name>
+        <url-pattern>/staff_logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffServiceMangeAddServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffServiceMangeAddServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffServiceMangeAddServlet</servlet-name>
+        <url-pattern>/staff_service_manage_add</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddPitchServlet</servlet-name>
+        <servlet-class>web.servlet.staff.AddPitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddPitchServlet</servlet-name>
+        <url-pattern>/staff_add_pitch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ShowListPitchServlet</servlet-name>
+        <servlet-class>web.servlet.staff.ShowListPitchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowListPitchServlet</servlet-name>
+        <url-pattern>/staff_update_pitch_list</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PitchDetailServlet</servlet-name>
+        <servlet-class>web.servlet.staff.PitchDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PitchDetailServlet</servlet-name>
+        <url-pattern>/pitch_detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PitchUpdateServlet</servlet-name>
+        <servlet-class>web.servlet.staff.PitchUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PitchUpdateServlet</servlet-name>
+        <url-pattern>/update_pitch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchPitchUpdateServlet</servlet-name>
+        <servlet-class>web.servlet.staff.SearchPitchUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchPitchUpdateServlet</servlet-name>
+        <url-pattern>/staff_update_pitch</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SearchServiceUpdateServlet</servlet-name>
+        <servlet-class>web.servlet.staff.SearchServiceUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchServiceUpdateServlet</servlet-name>
+        <url-pattern>/staff_update_service</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServiceDetailServlet</servlet-name>
+        <servlet-class>web.servlet.staff.ServiceDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServiceDetailServlet</servlet-name>
+        <url-pattern>/service_detail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServiceUpdateServlet</servlet-name>
+        <servlet-class>web.servlet.staff.ServiceUpdateServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServiceUpdateServlet</servlet-name>
+        <url-pattern>/update_service</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StaffSearchPitchReportServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffSearchPitchReportServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffSearchPitchReportServlet</servlet-name>
+        <url-pattern>/staff_pitch_report</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>PitchReportDetailServlet</servlet-name>
+        <servlet-class>web.servlet.staff.PitchReportDetailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>PitchReportDetailServlet</servlet-name>
+        <url-pattern>/pitch_report_detail</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>StaffSearchReportSeviceServlet</servlet-name>
+        <servlet-class>web.servlet.staff.StaffSearchReportSeviceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StaffSearchReportSeviceServlet</servlet-name>
+        <url-pattern>/staff_home_report_search</url-pattern>
+    </servlet-mapping>
+</web-app>

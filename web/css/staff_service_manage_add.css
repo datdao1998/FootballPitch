@@ -1,0 +1,143 @@
+#body-staff-service-add-service {
+    margin: 0;
+}
+#staff-service-add-service-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#div-form-staff-service-add-service {
+    padding-top: 15vh;
+    padding-left: 29vw;
+}
+.input-staff-service-add-service{
+    margin-bottom: 5vh;
+    border-top-color: #FD9B07;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: unset;
+    border-radius: 5px;
+    width: 20vw;
+    height: 5vh;
+}
+.float-left {
+    float: left;
+}
+#div-staff-service-add-service-2 {
+    padding-left: 7vw;
+}
+#btn-submit-staff-service-add-service {
+    clear: both;
+    margin-left: 18.5vw;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#form-staff-service-add-service {
+    height: 28vh;
+}
+
+/*fail*/
+#body-staff-service-add-service-fail {
+    margin: 0;
+}
+#staff-service-add-service-fail-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#div-staff-service-add-service-fail {
+    padding-top: 15vh;
+    padding-left: 23vw;
+}
+#staff-service-add-service-fail-div1 {
+    color: red;
+    font-size: 5vmax;
+    font-family: Bahnschrift;
+}
+#staff-service-add-service-fail-div2 {
+    margin-left: 24vw;
+    margin-top: 6vh;
+}
+#staff-service-add-service-fail-href-cancel {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+}
+
+/*success*/
+#body-staff-service-add-service-success {
+    margin: 0;
+}
+#staff-service-add-service-success-content {
+    width: 100vw;
+    height: 70vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout1.jpg");
+    background-size: 100vw 70vh;
+}
+#staff-service-add-service-success-div1 {
+    padding-top: 17vh;
+    color: white;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-align: center;
+}
+#staff-service-add-service-success-div2 {
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#btn-staff-service-add-service-success-login {
+    font-size: 1.5vmax;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-service-add-service-user-name-existed {
+    margin-left: 1vw;
+    font-size: 1.5vmax;
+    font-family: monospace;
+}

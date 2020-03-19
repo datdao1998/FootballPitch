@@ -1,0 +1,77 @@
+#staff-home-content {
+    background-image: url("http://localhost:8080/football_pitch/imgs/bg-staff-home.jpg");
+    background-size: 100vw 110vh; width: 100vw; height: 110vh;
+}
+.staff-home-div {
+    background-color: rgb(253, 189, 0);
+    border-radius: 6px;
+    width: 5vw;
+    height: 5vh;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    font-weight: bold;
+    font-family: Bahnschrift;
+    font-size: 3vmax;
+    text-decoration: none;
+    color: black;
+    width: 20vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 4vmax;
+    line-height: 19vh;
+}
+
+#staff-home-div-check-in {
+    padding-top: 19vh;
+    margin-left: 3vw;
+    float: left;
+}
+
+#staff-home-div-check-out {
+    padding-top: 19vh;
+    margin-left: 24vw;
+    float: left;
+}
+
+#staff-home-div-service {
+    clear: both;
+    padding-top: 19vh;
+    margin-left: 16vw;
+    float: left;
+}
+
+#staff-home-div-pitch {
+    padding-top: 19vh;
+    margin-left: 25.5vw;
+    float: left;
+}
+#staff-home-href-check-out {
+    width: 23vw;
+}
+.staff-home-href {
+    text-decoration: none;
+}
+
+#staff-home-user-name {
+    font-family: Bahnschrift;
+    float: right;
+    margin-right: 2vw;
+    font-size: 1.5vmax;
+    color: #fdbd00;
+}
+#staff-home-div-report{
+    margin-top: -7vh;
+    padding-top: 10vh;
+    margin-left: 40vw;
+    float: left;
+}

@@ -1,0 +1,32 @@
+#staff-process-check-in-booking-success-content {
+    width: 100vw; height: 70vh;
+    background-image: url('http://localhost:8080/football_pitch/imgs/layout2.jpg');
+    background-size: 100vw 70vh;
+}
+#staff-process-check-in-booking-success-div-1 {
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 6vmax;
+    color: aqua;
+    font-family: Bahnschrift;
+    height: 22vh;
+}
+
+#staff-process-check-in-booking-success-href-1 {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 47vw;
+}
+
+#staff-process-check-in-booking-success-href-2 {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 46vw;
+}
+#staff-process-check-in-booking-success-div-2 {
+    height: 9vh;
+}

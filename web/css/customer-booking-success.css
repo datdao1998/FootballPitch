@@ -1,0 +1,32 @@
+#customer-booking-success-content {
+    width: 100vw; height: 70vh;
+    background-image: url('http://localhost:8080/football_pitch/imgs/layout1.jpg');
+    background-size: 100vw 70vh;
+}
+#customer-booking-success-div-1 {
+    padding-top: 10vh;
+    text-align: center;
+    font-size: 6vmax;
+    color: green;
+    font-family: Bahnschrift;
+    height: 22vh;
+}
+
+#customer-booking-success-href-1 {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 47vw;
+}
+
+#customer-booking-success-href-2 {
+    font-size: 3vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 46vw;
+}
+#customer-booking-success-div-2 {
+    height: 9vh;
+}

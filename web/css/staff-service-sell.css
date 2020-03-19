@@ -1,0 +1,135 @@
+#staff-service-manage-sell-content {
+    width: 100vw;
+    min-height: 77vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw;
+}
+#staff-service-manage-sell-div-1 {
+    float: left;
+    padding-top: 9vh;
+}
+
+#staff-service-manage-sell-div-2 {
+    float: left;
+    padding-top: 6vh;
+    margin-left: 13vw;
+}
+#staff-service-manage-sell-form-search {
+    float: left;
+    margin-right: 1.5vw;
+}
+#staff-service-manage-sell-input-search {
+    float: left;
+    font-size: 1.3vmax;
+    border-radius: 5px;
+    font-weight: bold;
+    border-top-color: #FD9B07;
+    border-top-width: 0.3vh;
+    border-top-style: solid;
+    border-right-color: #FD9B07;
+    border-right-style: solid;
+    border-right-width: 0.15vw;
+    border-bottom-color: #FD9B07;
+    border-bottom-style: solid;
+    border-bottom-width: 0.3vh;
+    border-left-color: #FD9B07;
+    border-left-style: solid;
+    border-left-width: 0.15vw;
+}
+#staff-service-manage-sell-btn-search {
+    float: left;
+    border-radius: 5px;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    width: 5vw;
+    height: 4.1vh;
+}
+#staff-service-manage-sell-table-search {
+    clear: both;
+    margin-left: -10vw;
+}
+th {
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 1.5vmax;
+    color: #FDAB0A;
+    text-align: center;
+    width: 6.5vw;
+}
+td {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2vmax;
+    height: 7vh;
+    color: white;
+}
+.staff-service-manage-sell-btn-select {
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 1.3vmax;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+#staff-service-manage-sell-div-invoice {
+    text-align: center;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 1.7vmax;
+    color: black;
+    margin-bottom: 3vh;
+}
+#staff-service-manage-btn-selling {
+    border-radius: 5px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    font-size: 1.6vmax;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    height: 7vh;
+    width: 10vw;
+    line-height: 7vh;
+}
+#staff-service-manage-href-selling {
+    text-decoration: none;
+}
+#staff-service-manage-div-selling {
+    text-align: center;
+    margin-top: 2vh;
+}

@@ -1,0 +1,96 @@
+#staff-service-manage-detail-content {
+    width: 100vw;
+    height: 76vh;
+    background-image: url("http://localhost:8080/football_pitch/imgs/layout2.jpg");
+    background-size: 100vw 70vh;
+}
+
+#staff-service-manage-detail-form {
+    padding-top: 5vh;
+    height: 61vh;
+    margin-left: 15vw;
+}
+.staff-service-manage-detail-label {
+    font-size: 1.3vmax;
+    font-family: Bahnschrift;
+    color: white;
+    margin-bottom: 1vh;
+}
+.staff-service-manage-detail-input {
+    border-radius: 6px;
+    font-size: 1.5vmax;
+    font-family: Bahnschrift;
+    margin-bottom: 4vh;
+    float: right;
+    background-color: white;
+    color: black;
+}
+#staff-service-manage-detail-div-1 {
+    float: left;
+    margin-left: 27vw;
+    margin-right: 10vw;
+}
+
+#staff-service-manage-detail-btn-add-available{
+    clear: both;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+}
+
+#staff-service-manage-detail-div-2{
+    margin-top: 25vh;
+}
+
+#staff-service-manage-detail-div-3{
+    margin-top: 3vh;
+}
+
+#staff-check-in-booking-btn-check-in {
+    clear: both;
+    font-family: Bahnschrift;
+    border-radius: 6px;
+    width: 9vw;
+    font-size: 1.3vmax;
+    height: 6vh;
+    background-color: rgb(253, 189, 0);
+    font-weight: bold;
+    border-top-color: black;
+    border-top-width: unset;
+    border-top-style: solid;
+    border-right-color: black;
+    border-right-style: solid;
+    border-right-width: unset;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: unset;
+    border-left-color: black;
+    border-left-style: solid;
+    border-left-width: unset;
+    margin-left: 46.2vw;
+    margin-bottom: 2vh;
+}
+#staff-service-manage-detail-btn-esc {
+    clear: both;
+    font-size: 1.5vmax;
+    color: #FDAB0A;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    margin-left: 47.7vw;
+}
